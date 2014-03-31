@@ -10,7 +10,13 @@ RSpec.configure do |config|
 end
 
 shared_examples_for OrcidReconciliation do
-  let(:reconciler) {described_class.new} 
+  let(:reconciler) {described_class.new}
+  describe '.service_metadata' do
+    specify {
+      expect(JSON.parse(reconciler.service_metadata)["name"]).to match(/ORCID/)
+    }
+  end
+
   describe '.search' do
       specify {
         response = reconciler.search.body || File.open("spec/orcid-sample.xml")
@@ -23,6 +29,7 @@ shared_examples_for OrcidReconciliation do
   describe '.to_json' do
     specify {
       expect(reconciler.to_json).not_to be_nil
+      expect(JSON.parse(reconciler.to_json)).to be_true
     }  
   end
 

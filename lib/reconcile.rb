@@ -2,6 +2,7 @@
 require 'uri'
 require 'net/http'
 require 'nokogiri'
+require 'json'
 require 'jbuilder'
 
 module OrcidReconciliation
@@ -12,6 +13,7 @@ end
 
 def service_metadata
 service_metadata = { "name" => "Simple ORCID Reconciliation", "identifierSpace" => "profile.id", "schemaSpace" => "profile.id", "defaultTypes" => { "id" => "/profile/id", "name" => "Identifier" } }
+service_metadata = JSON.generate(service_metadata)
 end
 
 def get
