@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<orcid-message xmlns="http://www.orcid.org/ns/orcid">
+    <message-version>1.1</message-version>
+    <orcid-search-results num-found="2">
+        <orcid-search-result>
+            <relevancy-score>0.067899145</relevancy-score>
+            <orcid-profile>
+                <orcid-identifier>
+                    <uri>http://sandbox-1.orcid.org/0000-0002-4503-9262</uri>
+                    <path>0000-0002-4503-9262</path>
+                    <host>sandbox-1.orcid.org</host>
+                </orcid-identifier>
+                <orcid-bio>
+                    <personal-details>
+                        <given-names>Benedict</given-names>
+                        <family-name>Daly</family-name>
+                    </personal-details>
+                    <biography>treatment of locally advanced lung cancer, esophageal cancer</biography>
+                    <researcher-urls>
+                        <researcher-url>
+                            <url-name>BU Profiles</url-name>
+                            <url>http://profiles.bumc.bu.edu/ProfileDetails.aspx?From=SE&amp;Person=81</url>
+                        </researcher-url>
+                        <researcher-url>
+                            <url-name>Center for Thoracic Oncology</url-name>
+                            <url>http://www.bostonthoracicsurgery.com/handler.cfm?event=practice,template&amp;cpid=24029</url>
+                        </researcher-url>
+                    </researcher-urls>
+                    <contact-details>
+                        <email primary="false" current="true" verified="false">benedict.daly468@bmc.org</email>
+                        <email primary="true" current="true" verified="false">bendaly468@bu.edu</email>
+                    </contact-details>
+                </orcid-bio>
+                <orcid-activities/>
+            </orcid-profile>
+        </orcid-search-result>
+        <orcid-search-result>
+            <relevancy-score>0.067899145</relevancy-score>
+            <orcid-profile>
+                <orcid-identifier>
+                    <uri>http://sandbox-1.orcid.org/0000-0002-6142-3715</uri>
+                    <path>0000-0002-6142-3715</path>
+                    <host>sandbox-1.orcid.org</host>
+                </orcid-identifier>
+                <orcid-bio>
+                    <personal-details>
+                        <given-names>Benedict</given-names>
+                        <family-name>Daly</family-name>
+                    </personal-details>
+                </orcid-bio>
+                <orcid-activities/>
+            </orcid-profile>
+        </orcid-search-result>
+    </orcid-search-results>
